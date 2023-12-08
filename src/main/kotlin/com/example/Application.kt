@@ -6,8 +6,8 @@ import io.swagger.v3.oas.annotations.info.*
 
 @OpenAPIDefinition(
     info = Info(
-            title = "micronaut-swaggerui-versioned-api-bug",
-            version = "0.0"
+            title = "micronaut-swaggerui-demo",
+            version = "1.0.0"
     )
 )
 object Api {
@@ -15,4 +15,3 @@ object Api {
 fun main(args: Array<String>) {
 	run(*args)
 }
-
