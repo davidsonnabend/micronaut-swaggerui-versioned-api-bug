@@ -17,9 +17,8 @@ repositories {
 
 dependencies {
     ksp("io.micronaut:micronaut-http-validation")
-    ksp("io.micronaut.openapi:micronaut-openapi")
     ksp("io.micronaut.serde:micronaut-serde-processor")
-    ksp("io.micronaut.openapi:micronaut-openapi:6.3.0")
+    ksp("io.micronaut.openapi:micronaut-openapi:6.3.0!!")
     implementation("io.micronaut.kotlin:micronaut-kotlin-runtime")
     implementation("io.micronaut.serde:micronaut-serde-jackson")
     implementation("io.swagger.core.v3:swagger-annotations")
